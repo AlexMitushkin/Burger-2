@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff1e3;
+  color: #000;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+.burger {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+ background: linear-gradient(to bottom, #000 20%, transparent 21%, transparent 40%, #000 41%, #000 60%, transparent 61%, transparent 80%, #000 81%);
+  transition: 0.2s all linear;
+}
+.burger_active {
+  background: linear-gradient(45deg, transparent 45%,  #000 46%,#000 55%,#000 55%, transparent 56%),
+  linear-gradient(-45deg, transparent 45%, #000 46%, #000 55%, transparent 56%) 
+}
